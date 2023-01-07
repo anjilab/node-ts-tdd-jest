@@ -1,0 +1,38 @@
+// {
+//   "compilerOptions": {
+//     "allowJs": true,
+//     "allowSyntheticDefaultImports": true,
+//     "declaration": true,
+//     "emitDecoratorMetadata": true,
+//     "esModuleInterop": true,
+//     "experimentalDecorators": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "importsNotUsedAsValues": "error",
+//     "lib": ["es6"],
+//     "module": "commonjs",
+//     "moduleResolution": "node",
+//     "newLine": "lf",
+//     "noEmitOnError": true,
+//     "noImplicitReturns": true,
+//     "outDir": "build",
+//     "removeComments": true,
+//     "resolveJsonModule": true,
+//     "rootDir": "src",
+//     "sourceMap": true,
+//     "strict": true,
+//     "target": "es5",
+//     "types": []
+//   },
+//   "exclude": ["build", "node_modules"]
+// }
+
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": ["esnext"],
+    "esModuleInterop": true
+  },
+  "exclude": ["dist", "build", "node_modules"]
+}
