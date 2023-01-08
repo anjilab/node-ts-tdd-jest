@@ -80,7 +80,7 @@ export const getHouseholdData = async (req: any, res: any, next: any) => {
       roofOfHouse: await getRoofOfHouseData(req, res, next)
     };
 
-    res.send({
+    res.json({
       status: 'OK',
       code: 200,
       success: true,

@@ -10,7 +10,6 @@ export async function bulkCreate(data: TRoof[]) {
 
 // export function findAll(options) {
 export function findAll(options: any) {
-  console.log(options);
   return prisma.roof_of_house.findMany({
     where: options.where,
     select: options.attributes
